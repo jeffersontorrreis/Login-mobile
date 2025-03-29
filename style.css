@@ -1,0 +1,521 @@
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img_fundo {
+    display: none;
+}
+
+.container-pai {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-branca {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 90%;
+    padding: 50px;
+    border-radius: 24px;
+    flex-wrap: nowrap;
+}
+
+.botao_01 {
+    cursor: pointer;
+    width: 335px;
+    height: 56px;
+    background-color: #000000;
+    opacity: 100%;
+    border-radius: 40px;
+    transition: 0.9s;
+    color: #FFFFFF;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+}
+
+.botao_02 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 56px;
+    background-color: #FFFFFF;
+    opacity: 100%;
+    border-radius: 40px;
+    transition: 0.9s;
+    border-color: #706f6f5b;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0))
+}
+
+.botao_03 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 56px;
+    background-color: #FFFFFF;
+    opacity: 100%;
+    border-radius: 40px;
+    transition: 0.9s;
+    border-color: #706f6f5b;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0))
+}
+
+
+.item_3 {
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.item_4 {
+    margin-bottom: 14px;
+}
+
+.item_5 {
+    margin-bottom: 14px;
+}
+
+.item_6 {
+    margin-bottom: 24px;
+}
+
+.item_7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.item_9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    width: 335px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 410;
+    line-height: 32px;
+    letter-spacing: 0%;
+    opacity: 100%;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+}
+
+a {
+    color: #000000;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 12px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.paragrafo_0 {
+    font-size: 13px;
+    filter: drop-shadow(0px 4px 4px rgba(241, 240, 240, 0.911))
+}
+
+.paragrafo_1 {
+    font-size: 15px;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+}
+
+.paragrafo_2 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.logo_face {
+    width: 28px;
+    height: 28px;
+}
+
+.logo_google {
+    width: 24px;
+    height: 24px;
+}
+
+.paragrafo_3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.paragrafo_4 {
+    text-align: center;
+    width: 340px;
+    color: #706f6fab;
+    font-size: 12px;
+}
+
+.paragrafo_5 {
+    text-align: center;
+    width: 340px;
+    color: #706f6fab;
+    font-size: 12px;
+}
+
+.paragrafo_6 {
+    color: #706f6fab;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 540px) {
+    .img_fundo {
+        display: none;
+    }
+
+    .container-pai {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caixa-branca {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFFFFF;
+        width: 544px;
+        height: 638px;
+        padding: 50px;
+        border-radius: 24px;
+        transition: 0.8s;
+        flex-wrap: nowrap;
+    }
+
+    .botao_01 {
+        cursor: pointer;
+        width: 448px;
+        height: 64px;
+        background-color: #000000;
+        opacity: 100%;
+        border-radius: 40px;
+        transition: 0.9s;
+        color: #FFFFFF;
+        filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+    }
+
+    .botao_02 {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 448px;
+        height: 64px;
+        background-color: #FFFFFF;
+        opacity: 100%;
+        border-radius: 40px;
+        transition: 0.9s;
+        border-color: #706f6f86;
+        filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+    }
+
+    .botao_03 {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 448px;
+        height: 64px;
+        background-color: #FFFFFF;
+        opacity: 100%;
+        border-radius: 40px;
+        transition: 0.9s;
+        border-color: #706f6f86;
+        filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+    }
+
+    .item_3 {
+        margin-top: 8px;
+        margin-bottom: 24px;
+    }
+
+    .item_4 {
+        margin-bottom: 14px;
+    }
+
+    .item_5 {
+        margin-bottom: 14px;
+    }
+
+    .item_6 {
+        margin-bottom: 24px;
+    }
+
+    .item_7 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item_8 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+
+    .item_9 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        width: 400px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 41px;
+        letter-spacing: 0%;
+        opacity: 100%;
+        filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+    }
+
+    a {
+        color: #000000;
+        margin-left: 5px;
+        text-decoration: underline;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .paragrafo_0 {
+        font-size: 14px;
+        filter: drop-shadow(0px 4px 4px rgba(241, 240, 240, 0.911))
+    }
+
+    .paragrafo_1 {
+        font-size: 17px;
+        filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+    }
+
+    .paragrafo_2 {
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+
+    .paragrafo_3 {
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+
+    .paragrafo_4 {
+        width: 600px;
+        color: #706f6fab;
+        font-size: 14px;
+    }
+
+    .paragrafo_5 {
+        width: 600px;
+        color: #706f6fab;
+        font-size: 14px;
+    }
+
+    .paragrafo_6 {
+        color: #706f6fab;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 820px) {
+    .img_fundo {
+        display: none;
+    }
+
+    .container-pai {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caixa-branca {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFFFFF;
+        width: 544px;
+        height: 638px;
+        padding: 50px;
+        border-radius: 24px;
+        transition: 0.8s;
+        flex-wrap: nowrap;
+    }
+
+    .botao_01 {
+        cursor: pointer;
+        width: 448px;
+        height: 64px;
+        background-color: #000000;
+        opacity: 100%;
+        border-radius: 40px;
+        transition: 0.9s;
+        color: #FFFFFF;
+        filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+    }
+
+    .botao_02 {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 448px;
+        height: 64px;
+        background-color: #FFFFFF;
+        opacity: 100%;
+        border-radius: 40px;
+        transition: 0.9s;
+        border-color: #706f6f86;
+        filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+    }
+
+    .botao_03 {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 448px;
+        height: 64px;
+        background-color: #FFFFFF;
+        opacity: 100%;
+        border-radius: 40px;
+        transition: 0.9s;
+        border-color: #706f6f86;
+        filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+    }
+
+    .item_3 {
+        margin-top: 8px;
+        margin-bottom: 24px;
+    }
+
+    .item_4 {
+        margin-bottom: 14px;
+    }
+
+    .item_5 {
+        margin-bottom: 14px;
+    }
+
+    .item_6 {
+        margin-bottom: 24px;
+    }
+
+    .item_7 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item_8 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+
+    .item_9 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+
+        text-align: center;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 41px;
+        letter-spacing: 0%;
+        opacity: 100%;
+        filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+    }
+
+    a {
+        color: #000000;
+        margin-left: 5px;
+        text-decoration: underline;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .paragrafo_0 {
+
+        filter: drop-shadow(0px 4px 4px rgba(241, 240, 240, 0.911))
+    }
+
+    .paragrafo_1 {
+        font-size: 17px;
+        filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+    }
+
+    .paragrafo_2 {
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+
+    .paragrafo_3 {
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+
+    .paragrafo_4 {
+
+        color: #706f6fab;
+        font-size: 14px;
+    }
+
+    .paragrafo_5 {
+
+        color: #706f6fab;
+        font-size: 14px;
+    }
+
+    .paragrafo_6 {
+        color: #706f6fab;
+        font-size: 14px;
+    }
+}
+
+/*
+not responsive:
+- Ipad Air
+- Ipad Pro
+- Surface Pro 7
+- Asus Zenbook Fold
+*/
