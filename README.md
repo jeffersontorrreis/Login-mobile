@@ -1,8 +1,8 @@
 <h1>Landing Page Login mobile/desktop</h1>
 
-Nesse projeto uso bastante flexbox para melhor refino na responsividade, além de efeitos com transição de borda e posição. 
+In this project I use a lot of flexbox to improve responsiveness, as well as effects with edge transition and position. 
 
-<h1>Construído somente com HTML e CSS puro.</h1>
+<h1>Built with only pure HTML and CSS.</h1>
 
 ![image](https://github.com/user-attachments/assets/f686c462-77c3-4840-8300-98636c5a2ac3)
 
